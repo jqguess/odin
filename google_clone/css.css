@@ -1,0 +1,144 @@
+	
+button.btn {
+  background-color:#e6e6ff;
+  display: inline-block;
+  padding: 8px 15px 8px 15px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; 
+  margin-right: 10px;
+  
+}
+/*footer-style*/
+footer {
+  background:rgb(242, 242, 242);
+  position:absolute;
+  width:100%;
+  left: 0;
+  bottom: 0;
+  clear: both;
+}
+
+.links {
+  margin-left:15px;
+  margin-right:15px;
+  font-family:arial;
+  color:#666;
+  font-size:13px;
+  line-height: 24px;
+  
+}
+.links-left {
+  margin: 8px 15px;
+  float:left
+}
+.links-right {
+  margin: 8px 15px;        
+  float:right
+}
+html{
+	position:relative;
+	min-height:100%;
+}
+body {
+	font-family: Arial;
+	font-size: 14px;
+	margin: 0 0 40px 0;
+} 
+/*header css */
+#header {
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+.hlink {
+	float: left;
+	padding: 15px 6px 15px 6px;
+}
+#header button {
+  color: white;
+  background: #2E8AE6;
+  border:1px solid #2E8AE6;
+  border-radius: 2px; 
+  padding: 7px 12px 7px 12px;
+  
+} 
+
+#header button a {
+	color: #ffffff;
+	font-weight: bold;
+	opacity: 1;
+} 
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+	opacity: .60;
+}
+ ul a:hover {
+	text-decoration: underline;
+}
+
+
+#img.displayed {
+	display: block;
+	margin: auto;
+}
+
+#main {
+	clear: both;
+	width: 500px;
+	margin: auto;
+	padding-top: 150px;
+}
+form {
+	margin-top: 33px;
+	display: block;
+	margin: auto;
+}
+#gsearch {
+	display: block;
+	margin: auto;
+	font-size: 16px;
+	width: 465px;
+	padding: 10px;
+	background: url('gphone.png') no-repeat;
+	background-size: 75px 75px; 
+	background-position: right -10px top -20px;
+	border: 1px solid #d9d9d9;
+}
+#gsearch:hover {
+	border: 1px solid #9c9c9c;
+}
+#gsearch:focus {
+	border: 1px solid #4285F4;
+	outline: none;
+}
+
+#button_wrap {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+button.btn:hover {
+	color: black;
+	border: 1px solid #grey;
+	box-shadow: 0 1px #D9D9D9;
+}
