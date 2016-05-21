@@ -4,6 +4,7 @@
 >
 ________________________
 ### Solution for Etch-A-Sketch
+>(http://htmlpreview.github.io/?https://github.com/jqguess/odin/blob/master/etchasketch/etchasketch.html)
 >
 >
 >
