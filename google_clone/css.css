@@ -1,6 +1,6 @@
 	
 button.btn {
-  background-color:#e6e6ff;
+  background-color:#blue;
   display: inline-block;
   padding: 8px 15px 8px 15px;
   margin-bottom: 0;
@@ -66,15 +66,15 @@ body {
 }
 #header button {
   color: white;
-  background: #2E8AE6;
+  background: #0000ff;
   border:1px solid #2E8AE6;
   border-radius: 2px; 
   padding: 7px 12px 7px 12px;
-  
+ 
 } 
 
 #header button a {
-	color: #ffffff;
+	color: #blue;
 	font-weight: bold;
 	opacity: 1;
 } 
@@ -95,16 +95,21 @@ a {
 }
 
 
-#img.displayed {
-	display: block;
+.displayed {
+	display: inline-block;
 	margin: auto;
+	text-align:center;
+	
+	
 }
 
 #main {
+	display:block;
 	clear: both;
-	width: 500px;
-	margin: auto;
-	padding-top: 150px;
+	width: 550px;
+	margin:auto;
+	padding-top: 125px;
+	text-align:center;
 }
 form {
 	margin-top: 33px;
@@ -115,7 +120,7 @@ form {
 	display: block;
 	margin: auto;
 	font-size: 16px;
-	width: 465px;
+	width: 550px;
 	padding: 10px;
 	background: url('gphone.png') no-repeat;
 	background-size: 75px 75px; 
